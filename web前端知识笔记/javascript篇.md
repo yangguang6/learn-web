@@ -78,13 +78,13 @@
     ```
 
   * ## 同步和异步的区别：
-    ### 1.同步会阻塞代码执行，而异步不会
-    ### 2.alert是同步，setTimeout是异步
+    1. 同步会阻塞代码执行，而异步不会
+    2. alert是同步，setTimeout是异步
 
   * ## 使用异步的场景：
-    ### 1.定时任务：setTimeout, setInterval
-    ### 2.网络请求：ajax请求， 动态`<img>`加载（都需要等待）
-    ### 3.事件绑定
+    1. 定时任务：setTimeout, setInterval
+    2. 网络请求：ajax请求， 动态`<img>`加载（都需要等待）
+    3. 事件绑定
 
   * ## 除用户输入以外，异步编程技术的三个主要使用场景:
     网络请求(如Ajax请求)、 文件系统操作(读/写文件等)、 刻意的时间延迟功能(比如警告)
@@ -202,18 +202,18 @@
     ```
 
   * ## xhr取得响应：
-    ### - responseText: 获得字符串型式的响应数据
-    responseXML: 获得XML形式的响应数据
-    status和statusText: 以数字和文本形式返回HTTP状态码
-    getAllResponseHeader(): 获取所有的响应包头
-    getResponseHeader(): 查询响应中的某个字段的值
+    - responseText: 获得字符串型式的响应数据
+    - responseXML: 获得XML形式的响应数据
+    - status和statusText: 以数字和文本形式返回HTTP状态码
+    - getAllResponseHeader(): 获取所有的响应包头
+    - getResponseHeader(): 查询响应中的某个字段的值
 
   * ## readyState 属性：
-    0： 请求未初始化， open还没有调用
-    1： 服务器连接已建立， open已经调用了
-    2： 请求已接受，也就是接收到头信息了
-    3： 请求处理中，也就是接收到响应主体了
-    4： 请求已完成，且响应已就绪，也就是响应完成了
+    - 0： 请求未初始化， open还没有调用
+    - 1： 服务器连接已建立， open已经调用了
+    - 2： 请求已接受，也就是接收到头信息了
+    - 3： 请求处理中，也就是接收到响应主体了
+    - 4： 请求已完成，且响应已就绪，也就是响应完成了
 
   * ## promise版：
     ```javascript
