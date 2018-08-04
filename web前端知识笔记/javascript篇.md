@@ -1,8 +1,8 @@
 # 1. 闭包
   * ## 概念：
-    - 闭包就是能够读取其他函数内部变量的函数。
-    - 闭包就是将函数内部和函数外部连接起来的一座桥梁。
-    - 可以把闭包简单理解成"定义在一个函数内部的函数"。
+    1. 闭包就是能够读取其他函数内部变量的函数。
+    2. 闭包就是将函数内部和函数外部连接起来的一座桥梁。
+    3. 可以把闭包简单理解成"定义在一个函数内部的函数"。
 
   * ## 例子：
     ```javascript
@@ -26,40 +26,40 @@
     ```
 
   * ## 闭包的使用场景：
-    ### 1.函数作为返回值:
-    ```javascript
-    function F1(){
-      var a = 100
-      return	function(){
-        console.log(a)
+    ### 1. 函数作为返回值:
+      ```javascript
+      function F1(){
+        var a = 100
+        return	function(){
+          console.log(a)
+        }
       }
-    }
-    var f1 = F1()
-    var a = 200
-    f1()    //100
-    ```
-
-    ### 2.函数作为参数传递:
-    ```javascript
-    function F1(){
-      var a = 100
-      return	function(){
-        console.log(a)  //自由变量，父作用域寻找
-      }
-    }
-    var f1 = F1()
-
-    function F2(fn) {
+      var f1 = F1()
       var a = 200
-      fn()
-    }
-    F2(f1)  //100
-    ```
+      f1()    //100
+      ```
+
+    ### 2. 函数作为参数传递:
+      ```javascript
+      function F1(){
+        var a = 100
+        return	function(){
+          console.log(a)  //自由变量，父作用域寻找
+        }
+      }
+      var f1 = F1()
+
+      function F2(fn) {
+        var a = 200
+        fn()
+      }
+      F2(f1)  //100
+      ```
 
   * ## 如何理解作用域：
-    ### 1.自由变量
-    ### 2.作用域链，即自由变量的查找
-    ### 3.闭包的两个场景
+    1. 自由变量
+    2. 作用域链，即自由变量的查找
+    3. 闭包的两个场景
 
 # 2. 同步和异步
   * ## 例子：
