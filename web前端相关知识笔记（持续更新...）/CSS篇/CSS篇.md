@@ -35,7 +35,7 @@
                 background-color: skyblue;
               }
               div {
-                position: absolute;
+                overflow: hidden;    //触发BFC
               }
             </style>
           </head>
@@ -48,7 +48,81 @@
         </html>
         ```
       * #### 页面效果：
-        ![页面效果](./imgs/margin.png)
+        ![margin](./imgs/margin.png)
+
+    ### 2. 清除内部浮动
+      * #### 示例：
+        ```javascript
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <title>BFC</title>
+            <style>
+              .container {
+                width: 500px;
+                background-color: cadetblue;
+                overflow: hidden;    //触发BFC
+              }
+              .left {
+                width: 100px;
+                height: 100px;
+                margin: 50px;
+                background-color: coral;
+                float: left;
+              }
+              .right {
+                width: 100px;
+                height: 100px;
+                margin: 50px;
+                background-color: darkorange;
+                float: right;
+              }
+            </style>
+          </head>
+          <body>
+            <div class="container">
+              <div class="left"></div>
+              <div class="right"></div>
+            </div>
+          </body>
+        </html>
+        ```
+      * #### 页面效果：
+        ![clearFloat](./imgs/clearFloat.png)
+
+    ### 3. 解决侵占浮动元素的问题：
+      * #### 示例：
+        ```javascript
+        <!DOCTYPE html>
+        <html lang="en">
+          <head>
+            <meta charset="UTF-8">
+            <title>BFC</title>
+            <style>
+              .aside {
+                width: 100px;
+                height: 100px;
+                background-color: coral;
+                float: left;
+              }
+              .main {
+                width: 300px;
+                height: 200px;
+                background-color: darkblue;
+                overflow: hidden;    //触发BFC
+              }
+            </style>
+          </head>
+          <body>
+            <div class="aside"></div>
+            <div class="main"></div>
+          </body>
+        </html>
+        ```
+      
+      * #### 页面效果：
+        ![floatCover](./imgs/floatCover.png)
 
   * 参考链接：
     - http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html
