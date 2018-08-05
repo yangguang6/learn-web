@@ -248,13 +248,15 @@
 
 # 5. 类型
   * ## Javascript中，只有基本类型和对象这两种值。（按存储方式区分变量类型： 值类型、引用类型）
-    ```javascript
-      //引用类型例子
-      var a = {age: 20}
-      var b = a
-      b.age = 21
-      console.log(a.age)  //21
-    ```
+    - 基本类型： 数字、 字符串、 布尔、 null、 undefined、 符号(ES6)
+    - 引用类型： 对象、 数组、 函数
+      ```javascript
+        //引用类型例子
+        var a = {age: 20}
+        var b = a
+        b.age = 21
+        console.log(a.age)  //21
+      ```
 
   * ## 特殊的数值NaN与任何值都不相等，包括他自己。 (即，NaN === NaN 和 NaN == NaN 都是false)
 
