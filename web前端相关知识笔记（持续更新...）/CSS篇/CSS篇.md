@@ -137,3 +137,152 @@
     - https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Block_formatting_context
     - http://www.cnblogs.com/lhb25/p/inside-block-formatting-ontext.html
     - https://segmentfault.com/a/1190000012221820
+
+# 2. 布局
+  * ## 高宽不确定水平垂直居中：
+    - ### flex
+      ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>BFC</title>
+          <style>
+            * {
+              margin: 0;
+              padding: 0;
+            }
+            .container {
+              width: 300px;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background-color: skyblue;
+            }
+            .item {
+              background-color: chocolate;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <div class="item">hello world!</div>
+          </div>
+        </body>
+      </html>
+      ```
+
+
+    - ### transform: translate(-50%,-50%)
+      ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>BFC</title>
+          <style>
+            * {
+              margin: 0;
+              padding: 0;
+            }
+            .container {
+              position: relative;
+              width: 300px;
+              height: 400px;
+              background-color: skyblue;
+            }
+            .item {
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              background-color: chocolate;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <div class="item">hello world!</div>
+          </div>
+        </body>
+      </html>
+      ```
+  
+  * ## 左固定右自适应：
+    - ### 1. flex
+      ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>BFC</title>
+          <style>
+            * {
+              margin: 0;
+              padding: 0;
+            }
+            .container {
+              display: flex;
+            }
+            .left {
+              min-width: 200px;
+              height: 300px;
+              background-color: skyblue;
+            }
+            .right {
+              height: 500px;
+              flex: 1;
+              background-color: chocolate;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <div class="left">left</div>
+            <div class="right">right</div>
+          </div>
+          
+        </body>
+      </html>
+      ```
+
+    - ### 2. 左`float`，右`overflow: hidden`触发BFC
+    - ### 3. `position: absolute` `margin-left` 
+      ```html
+      <!DOCTYPE html>
+      <html lang="en">
+        <head>
+          <meta charset="UTF-8">
+          <title>BFC</title>
+          <style>
+            * {
+              margin: 0;
+              padding: 0;
+            }
+            .container {
+              position: relative;
+            }
+            .left {
+              width: 200px;
+              height: 300px;
+              position: absolute;
+              top: 0;
+              left: 0;
+              background-color: skyblue;
+            }
+            .right {
+              height: 500px;
+              margin-left: 200px;
+              background-color: chocolate;
+            }
+          </style>
+        </head>
+        <body>
+          <div class="container">
+            <div class="left">left</div>
+            <div class="right">right</div>
+          </div>
+        </body>
+      </html>
+      ```
