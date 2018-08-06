@@ -56,32 +56,32 @@
 
 * 分组交换采用 **存储转发** 技术。
   优点：
-<table>
-<thead>
-<tr>
-<th>优点</th>
-<th style="text-align:center">所采用的手段</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>高效</td>
-<td style="text-align:center">在分组传输的过程中动态分配传输带宽，对通信链路是逐段占用</td>
-</tr>
-<tr>
-<td>灵活</td>
-<td style="text-align:center">为每一个分组独立的选择最合适的转发路由</td>
-</tr>
-<tr>
-<td>迅速</td>
-<td style="text-align:center">以分组作为传送单位，可以不先建立连接就能向其他主机发送分组</td>
-</tr>
-<tr>
-<td>可靠</td>
-<td style="text-align:center">保证可靠性的网络协议：分布式多路由的分组交换网，使网络有很好的生存性</td>
-</tr>
-</tbody>
-</table>
+  <table>
+  <thead>
+  <tr>
+  <th>优点</th>
+  <th style="text-align:center">所采用的手段</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td>高效</td>
+  <td style="text-align:center">在分组传输的过程中动态分配传输带宽，对通信链路是逐段占用</td>
+  </tr>
+  <tr>
+  <td>灵活</td>
+  <td style="text-align:center">为每一个分组独立的选择最合适的转发路由</td>
+  </tr>
+  <tr>
+  <td>迅速</td>
+  <td style="text-align:center">以分组作为传送单位，可以不先建立连接就能向其他主机发送分组</td>
+  </tr>
+  <tr>
+  <td>可靠</td>
+  <td style="text-align:center">保证可靠性的网络协议：分布式多路由的分组交换网，使网络有很好的生存性</td>
+  </tr>
+  </tbody>
+  </table>
   
   缺点：
   **时延**：分组在各路由器存储转发时需要排队，造成一定时延；
@@ -89,52 +89,52 @@
 <br>
 
 * 计算机网络体系结构
-<table>
-<thead>
-<tr>
-<th style="text-align:center">OSI的体系结构</th>
-<th style="text-align:center">TCP/TP的体系结构</th>
-<th style="text-align:center">五层协议的体系结构</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">应用层</td>
-<td style="text-align:center">^</td>
-<td style="text-align:center">^</td>
-</tr>
-<tr>
-<td style="text-align:center">表示层</td>
-<td style="text-align:center">^</td>
-<td style="text-align:center">^</td>
-</tr>
-<tr>
-<td style="text-align:center">会话层</td>
-<td style="text-align:center">应用层(各种应用层协议如TELNET,FTP,SMTP等)</td>
-<td style="text-align:center">应用层</td>
-</tr>
-<tr>
-<td style="text-align:center">运输层</td>
-<td style="text-align:center">运输层（TCP或UDP）</td>
-<td style="text-align:center">运输层</td>
-</tr>
-<tr>
-<td style="text-align:center">网络层</td>
-<td style="text-align:center">网际层IP</td>
-<td style="text-align:center">网络层</td>
-</tr>
-<tr>
-<td style="text-align:center">数据链路层</td>
-<td style="text-align:center">^</td>
-<td style="text-align:center">数据链路层</td>
-</tr>
-<tr>
-<td style="text-align:center">物理层</td>
-<td style="text-align:center">网络接口层</td>
-<td style="text-align:center">物理层</td>
-</tr>
-</tbody>
-</table>
+  <table>
+  <thead>
+  <tr>
+  <th style="text-align:center">OSI的体系结构</th>
+  <th style="text-align:center">TCP/TP的体系结构</th>
+  <th style="text-align:center">五层协议的体系结构</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td style="text-align:center">应用层</td>
+  <td style="text-align:center">^</td>
+  <td style="text-align:center">^</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">表示层</td>
+  <td style="text-align:center">^</td>
+  <td style="text-align:center">^</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">会话层</td>
+  <td style="text-align:center">应用层(各种应用层协议如TELNET,FTP,SMTP等)</td>
+  <td style="text-align:center">应用层</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">运输层</td>
+  <td style="text-align:center">运输层（TCP或UDP）</td>
+  <td style="text-align:center">运输层</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">网络层</td>
+  <td style="text-align:center">网际层IP</td>
+  <td style="text-align:center">网络层</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">数据链路层</td>
+  <td style="text-align:center">^</td>
+  <td style="text-align:center">数据链路层</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">物理层</td>
+  <td style="text-align:center">网络接口层</td>
+  <td style="text-align:center">物理层</td>
+  </tr>
+  </tbody>
+  </table>
 <br>
 
 * 协议主要有以下三个要素组成：
@@ -161,32 +161,32 @@
 <br>
 
 * PPP帧格式：
-<table>
-<thead>
-<tr>
-<th style="text-align:center"></th>
-<th style="text-align:center">F</th>
-<th style="text-align:center">A</th>
-<th style="text-align:center">C</th>
-<th style="text-align:center">协议</th>
-<th style="text-align:center">信息部分</th>
-<th style="text-align:center">FCS</th>
-<th style="text-align:center">F</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">字节</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">1</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">不超过1500字节</td>
-<td style="text-align:center">2</td>
-<td style="text-align:center">1</td>
-</tr>
-</tbody>
-</table>
+  <table>
+  <thead>
+  <tr>
+  <th style="text-align:center"></th>
+  <th style="text-align:center">F</th>
+  <th style="text-align:center">A</th>
+  <th style="text-align:center">C</th>
+  <th style="text-align:center">协议</th>
+  <th style="text-align:center">信息部分</th>
+  <th style="text-align:center">FCS</th>
+  <th style="text-align:center">F</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td style="text-align:center">字节</td>
+  <td style="text-align:center">1</td>
+  <td style="text-align:center">1</td>
+  <td style="text-align:center">1</td>
+  <td style="text-align:center">2</td>
+  <td style="text-align:center">不超过1500字节</td>
+  <td style="text-align:center">2</td>
+  <td style="text-align:center">1</td>
+  </tr>
+  </tbody>
+  </table>
 
   * 标志字段 F 规定为 0x7E
   * 地址字段 A 规定为 0xFF
@@ -247,53 +247,53 @@
 <br>
 
 * 一般不使用的特殊IP地址：
-<table>
-<thead>
-<tr>
-<th style="text-align:center">网络号</th>
-<th style="text-align:center">主机号</th>
-<th style="text-align:center">源地址使用</th>
-<th style="text-align:center">目的地址使用</th>
-<th style="text-align:center">代表的意思</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">0</td>
-<td style="text-align:center">0</td>
-<td style="text-align:center">可以</td>
-<td style="text-align:center">不可</td>
-<td style="text-align:center">在本网络上的本主机</td>
-</tr>
-<tr>
-<td style="text-align:center">0</td>
-<td style="text-align:center">host-id</td>
-<td style="text-align:center">可以</td>
-<td style="text-align:center">不可</td>
-<td style="text-align:center">在本网络上的某台主机 host-id</td>
-</tr>
-<tr>
-<td style="text-align:center">全1</td>
-<td style="text-align:center">全1</td>
-<td style="text-align:center">不可</td>
-<td style="text-align:center">可以</td>
-<td style="text-align:center">只在本网络上进行广播（各路由器均不转发）</td>
-</tr>
-<tr>
-<td style="text-align:center">net-id</td>
-<td style="text-align:center">全1</td>
-<td style="text-align:center">不可</td>
-<td style="text-align:center">可以</td>
-<td style="text-align:center">对net-id上的所有主机进行广播</td>
-</tr>
-<tr>
-<td style="text-align:center">127</td>
-<td style="text-align:center">非全0或全1的任何数</td>
-<td style="text-align:center">可以</td>
-<td style="text-align:center">可以</td>
-<td style="text-align:center">用于本地软件环回测试</td>
-</tr>
-</tbody>
-</table>
+  <table>
+  <thead>
+  <tr>
+  <th style="text-align:center">网络号</th>
+  <th style="text-align:center">主机号</th>
+  <th style="text-align:center">源地址使用</th>
+  <th style="text-align:center">目的地址使用</th>
+  <th style="text-align:center">代表的意思</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td style="text-align:center">0</td>
+  <td style="text-align:center">0</td>
+  <td style="text-align:center">可以</td>
+  <td style="text-align:center">不可</td>
+  <td style="text-align:center">在本网络上的本主机</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">0</td>
+  <td style="text-align:center">host-id</td>
+  <td style="text-align:center">可以</td>
+  <td style="text-align:center">不可</td>
+  <td style="text-align:center">在本网络上的某台主机 host-id</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">全1</td>
+  <td style="text-align:center">全1</td>
+  <td style="text-align:center">不可</td>
+  <td style="text-align:center">可以</td>
+  <td style="text-align:center">只在本网络上进行广播（各路由器均不转发）</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">net-id</td>
+  <td style="text-align:center">全1</td>
+  <td style="text-align:center">不可</td>
+  <td style="text-align:center">可以</td>
+  <td style="text-align:center">对net-id上的所有主机进行广播</td>
+  </tr>
+  <tr>
+  <td style="text-align:center">127</td>
+  <td style="text-align:center">非全0或全1的任何数</td>
+  <td style="text-align:center">可以</td>
+  <td style="text-align:center">可以</td>
+  <td style="text-align:center">用于本地软件环回测试</td>
+  </tr>
+  </tbody>
+  </table>
 
   
