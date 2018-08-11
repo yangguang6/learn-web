@@ -576,6 +576,16 @@
       console.log(arr2)
       ```
 
+    ### 7. slice和splice
+      * slice() 方法 （http://www.w3school.com.cn/jsref/jsref_slice_array.asp）
+        - `arrayObject.slice(start,end)`
+        - 返回一个新的数组，包含从 start 到 end （不包括该元素）的 arrayObject 中的元素。
+        - 该方法并不会修改数组，而是返回一个子数组。
+
+      * splice() 方法 (http://www.w3school.com.cn/jsref/jsref_splice.asp)
+        - arrayObject.splice(index,howmany,item1,.....,itemX)
+        - splice() 方法可删除从 index 处开始的零个或多个元素，并且用参数列表中声明的一个或多个值来替换那些被删除的元素。如果从 arrayObject 中删除了元素，则**返回的是含有被删除的元素的数组**。
+
   * ## 对象API：
     ```javascript
     var obj = {
