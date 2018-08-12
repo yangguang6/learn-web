@@ -28,3 +28,5 @@
 # 3. 用户登陆  绘画机制  cookie session
 
 # 4. 输入URL后的整个过程原理
+
+# 5. https原理

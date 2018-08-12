@@ -694,3 +694,5 @@
   * https://www.cnblogs.com/ifworld/p/7605954.html
 
 # 17. 取出页面所有元素
+
+# 18. "use strict"
