@@ -687,3 +687,10 @@
     4. 减少DOM操作，多个操作尽量合并在一起执行
     5. 事件节流
     6. 尽早执行操作（ 如DOMContentLoaded ）
+
+# 15. 正则表达式
+
+# 16. offset  client  scroll ...
+  * https://www.cnblogs.com/ifworld/p/7605954.html
+
+# 17. 取出页面所有元素
