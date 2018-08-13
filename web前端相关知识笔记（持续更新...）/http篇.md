@@ -25,7 +25,7 @@
 
 # 2. http缓存
 
-# 3. 用户登陆  绘画机制  cookie session
+# 3. 用户登陆  会话机制  cookie session
 
 # 4. 输入URL后的整个过程原理
 
