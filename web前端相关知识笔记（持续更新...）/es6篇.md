@@ -10,3 +10,5 @@
 # 4. async await
 
 # 5. 箭头函数 this
+
+# 6. es6 module  AMD  commonJS
