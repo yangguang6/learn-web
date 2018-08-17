@@ -695,4 +695,10 @@
 
 # 17. 取出页面所有元素
 
-# 18. "use strict"
+# 18. "use strict" 严格模式
+  - https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Strict_mode
+  - https://github.com/ruanyf/es6tutorial/blob/gh-pages/docs/module.md#%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F
+
+# 19. 代码健壮性
+  - https://blog.csdn.net/baixiaoshi/article/details/46745669
+  - https://www.jb51.net/article/9952.htm
