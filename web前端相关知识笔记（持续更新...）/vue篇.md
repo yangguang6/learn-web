@@ -2,4 +2,6 @@
 
 # 2. 父子、兄弟组件之间传值
 
-# 3. elementUI mintui
+# 3. elementUI 表单验证 mintui
+
+# 4. 生命周期
