@@ -9,3 +9,6 @@
 # 3. 声明
 
 # 4. 表单验证 required
+
+# 5. 异步加载JS脚本
+  * https://www.jianshu.com/p/bf8b5bf5fc90
