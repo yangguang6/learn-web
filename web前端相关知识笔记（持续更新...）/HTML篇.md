@@ -12,3 +12,8 @@
 
 # 5. 异步加载JS脚本
   * https://www.jianshu.com/p/bf8b5bf5fc90
+
+# 6. 浏览器渲染过程
+
+# 7. offset  client  scroll ...
+  * https://www.cnblogs.com/ifworld/p/7605954.html

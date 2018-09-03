@@ -28,5 +28,6 @@
 # 3. 用户登陆  会话机制  cookie session 单点登陆SSO
 
 # 4. 输入URL后的整个过程原理
+  - http://www.xuecaijie.com/it/157.html#1Q64dG0mJ2gKFF
 
 # 5. https原理

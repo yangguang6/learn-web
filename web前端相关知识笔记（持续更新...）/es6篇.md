@@ -12,3 +12,5 @@
 # 5. 箭头函数 this
 
 # 6. es6 module  AMD  commonJS
+
+# 7. 解构赋值

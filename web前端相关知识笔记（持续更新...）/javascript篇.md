@@ -690,8 +690,7 @@
 
 # 15. 正则表达式
 
-# 16. offset  client  scroll ...
-  * https://www.cnblogs.com/ifworld/p/7605954.html
+# 16. 原型继承和类（构造函数）继承区别
 
 # 17. 取出页面所有元素
 
