@@ -21,14 +21,14 @@
 
 `WeakMap` 和 `WeakSet` 都是“弱引用”，不会被记入垃圾回收机制。
 
-### `Map`和`WeakMap`有什么区别？
+### `Map` 和 `WeakMap` 有什么区别？
 
 |         |   Map   |       WeakMap       |
 |   ---   |   ---   |          ---        |
 |   键名   | 任意类型 | 只接受对象（null除外）  |
 |  可遍历  |    是   |         否           |
 
-### `Set`和`WeakSet`有什么区别？
+### `Set` 和 `WeakSet` 有什么区别？
 
 |         |   Set   |       WeakSet       |
 |   ---   |   ---   |          ---        |
