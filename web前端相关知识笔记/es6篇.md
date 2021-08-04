@@ -13,6 +13,9 @@
 ## 5、箭头函数 this
 
 ## 6、es6 module  AMD  commonJS
+### ES Module 和 CommonJS 的区别？
+
+
 
 ## 7、解构赋值
 
